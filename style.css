@@ -1,3 +1,12 @@
-body{
-    color: darkblue
+.hero-image{
+    background-image: url(./Images/1000004618.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+
+.hero-text{
+    font-size: 60px;
+    color: white
 }
