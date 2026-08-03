@@ -23,3 +23,10 @@ h2{
     padding-left: 40px;
     padding-top: 0px;
 }
+
+.dot{
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    color: #175B91;
+}
