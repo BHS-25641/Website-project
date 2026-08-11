@@ -60,7 +60,7 @@ h2{
     background-size: cover;
     background-position: center;
     display: inline-block;
-    margin-right: 100px;
+    margin-right: 150px;
     margin-top: 50px; 
 }
 
@@ -91,7 +91,7 @@ h2{
 
 .container1{
     height: 200px;
-    width: 1000px;
+    width: 1400px;
     background-color:#053363;
     padding-top: 30px;
     display: block;
@@ -100,9 +100,60 @@ h2{
 
 .container2{
     height: 200px;
-    width: 900px;
+    width: 1400px;
+    background-color: #175B91;
+    padding-bottom: 30px;
+    display: block;
+    margin-top: 40px;
+}
+
+.container3{
+    height: 200px;
+    width: 1400px;
     background-color:#053363;
     padding-bottom: 30px;
     display: block;
-    margin-top: 100px;
+    margin-top: 40px;
+
+}
+
+.container4{
+    height: 200px;
+    width: 1400px;
+    background-color: #175B91;
+    padding-bottom: 30px;
+    display: block;
+    margin-top: 40px;
+}
+
+.container5{
+    height: 200px;
+    width: 1400px;
+    background-color:#053363;
+    padding-bottom: 30px;
+    display: block;
+    margin-top: 40px;
+
+}
+
+/* container texts - contain info and titles of top 5 */
+
+.container-text1{
+    color: whitesmoke;
+}
+
+.container-text2{
+    color: whitesmoke;
+}
+
+.container-text3{
+    color: whitesmoke;
+}
+
+.container-text4{
+    color: whitesmoke;
+}
+
+.container-text5{
+    color: whitesmoke;
 }
