@@ -28,7 +28,7 @@ h2{
     border-radius: 50%;
     height: 200px;
     width: 200px;
-    background-image: url(./Images/Screenshot\ 2026-08-03\ 104839.png);
+    background-image: url(./Images/51898.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -41,7 +41,7 @@ h2{
     border-radius: 50%;
     height: 200px;
     width: 200px;
-    background-image: url(./Images/Screenshot\ 2026-08-03\ 182049.png);
+    background-image: url(./Images/51899.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -55,7 +55,7 @@ h2{
     border-radius: 50%;
     height: 200px;
     width: 200px;
-    background-image: url(./Images/Screenshot\ 2026-08-03\ 182104.png);
+    background-image: url(./Images/51900.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -63,6 +63,8 @@ h2{
     margin-right: 150px;
     margin-top: 50px; 
 }
+
+/* personal review container and text */
 
 .text-container{
     background-color: #40B0BF;
@@ -88,51 +90,57 @@ h2{
     z-index: 1;
 }
 
+/* conatiners for information/text - top 5 */
 
 .container1{
-    height: 200px;
-    width: 1400px;
+    height: 300px;
+    width: 1200px;
     background-color:#053363;
     padding-top: 30px;
     display: block;
-    margin-top: 500px
+    margin-top: 500px;
+    margin-left: 30px;
 }
 
 .container2{
-    height: 200px;
-    width: 1400px;
+    height: 300px;
+    width: 1200px;
     background-color: #175B91;
     padding-bottom: 30px;
     display: block;
     margin-top: 40px;
+    margin-left: 30px;
 }
 
 .container3{
-    height: 200px;
-    width: 1400px;
+    height: 300px;
+    width: 1200px;
     background-color:#053363;
     padding-bottom: 30px;
     display: block;
     margin-top: 40px;
+    margin-left: 30px;
 
 }
 
 .container4{
-    height: 200px;
-    width: 1400px;
+    height: 300px;
+    width: 1200px;
     background-color: #175B91;
     padding-bottom: 30px;
     display: block;
     margin-top: 40px;
+    margin-left: 30px;
 }
 
 .container5{
-    height: 200px;
-    width: 1400px;
+    height: 300px;
+    width: 1200px;
     background-color:#053363;
     padding-bottom: 30px;
     display: block;
     margin-top: 40px;
+    margin-left: 30px;
 
 }
 
@@ -144,6 +152,7 @@ h2{
 
 .container-text2{
     color: whitesmoke;
+    font-size: 50px;
 }
 
 .container-text3{
@@ -156,4 +165,62 @@ h2{
 
 .container-text5{
     color: whitesmoke;
+}
+
+
+/* image placeholders for pictures of top 5 places */
+
+.image-container-4{
+    width: 170px;
+    height: 120px;
+    background-image: url(./Images/1000021992.jpg);
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: 1400px;
+}
+
+.image-container-5{
+    width: 170px;
+    height: 120px;
+    background-image: url(./Images/1000021998.jpg);
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: 1400px;
+}
+
+.image-container-6{
+    width: 170px;
+    height: 120px;
+    background-image: url(./Images/1000005850.jpg);
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: 1400px;
+}
+
+.image-container-7{
+    width: 170px;
+    height: 120px;
+    background-image: url(./Images/1000021995.jpg);
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: 1400px;
+}
+
+.image-container-8{
+    width: 170px;
+    height: 120px;
+    background-image: url(./Images/1000005686.jpg);
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: 1400px;
 }
