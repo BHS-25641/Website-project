@@ -224,3 +224,7 @@ h2{
     background-position: center;
     margin-left: 1400px;
 }
+
+.content{
+    display: inline-block;
+}
