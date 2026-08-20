@@ -24,6 +24,7 @@ h2{
     padding-top: 0px;
 }
 
+/* icons for the hero section */
 .image-container1{
     border-radius: 50%;
     height: 200px;
@@ -92,139 +93,21 @@ h2{
 
 /* conatiners for information/text - top 5 */
 
-.container1{
-    height: 300px;
-    width: 1200px;
-    background-color:#053363;
-    padding-top: 30px;
-    display: block;
+
+.two-column{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px
+}
+
+img{
+    width: 50%; 
     margin-top: 500px;
-    margin-left: 30px;
 }
 
-.container2{
-    height: 300px;
-    width: 1200px;
-    background-color: #175B91;
-    padding-bottom: 30px;
-    display: block;
-    margin-top: 40px;
-    margin-left: 30px;
-}
-
-.container3{
-    height: 300px;
-    width: 1200px;
-    background-color:#053363;
-    padding-bottom: 30px;
-    display: block;
-    margin-top: 40px;
-    margin-left: 30px;
-
-}
-
-.container4{
-    height: 300px;
-    width: 1200px;
-    background-color: #175B91;
-    padding-bottom: 30px;
-    display: block;
-    margin-top: 40px;
-    margin-left: 30px;
-}
-
-.container5{
-    height: 300px;
-    width: 1200px;
-    background-color:#053363;
-    padding-bottom: 30px;
-    display: block;
-    margin-top: 40px;
-    margin-left: 30px;
-
-}
-
-/* container texts - contain info and titles of top 5 */
-
-.container-text1{
-    color: whitesmoke;
-}
-
-.container-text2{
-    color: whitesmoke;
-    font-size: 50px;
-}
-
-.container-text3{
-    color: whitesmoke;
-}
-
-.container-text4{
-    color: whitesmoke;
-}
-
-.container-text5{
-    color: whitesmoke;
-}
-
-
-/* image placeholders for pictures of top 5 places */
-
-.image-container-4{
-    width: 170px;
-    height: 120px;
-    background-image: url(./Images/1000021992.jpg);
-    display: block;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    margin-left: 1400px;
-}
-
-.image-container-5{
-    width: 170px;
-    height: 120px;
-    background-image: url(./Images/1000021998.jpg);
-    display: block;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    margin-left: 1400px;
-}
-
-.image-container-6{
-    width: 170px;
-    height: 120px;
-    background-image: url(./Images/1000005850.jpg);
-    display: block;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    margin-left: 1400px;
-}
-
-.image-container-7{
-    width: 170px;
-    height: 120px;
-    background-image: url(./Images/1000021995.jpg);
-    display: block;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    margin-left: 1400px;
-}
-
-.image-container-8{
-    width: 170px;
-    height: 120px;
-    background-image: url(./Images/1000005686.jpg);
-    display: block;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    margin-left: 1400px;
-}
-
-.content{
-    display: inline-block;
+.info-container{
+    height: 200px;
+    width: 600px;
+    margin-top: 500px;
+    background-color: #053363;
 }
