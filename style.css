@@ -105,9 +105,44 @@ img{
     margin-top: 500px;
 }
 
+
+
 .info-container{
-    height: 200px;
-    width: 600px;
+    height: 300px;
+    width: 800px;
     margin-top: 500px;
     background-color: #053363;
+    color: white;
+}
+
+.info-container1{
+    height: 300px;
+    width: 800px;
+    margin-top: 100px;
+    background-color: #053363;
+    color: white;
+}
+
+.info-container2{
+    height: 300px;
+    width: 800px;
+    margin-top: 100px;
+    background-color: #053363;
+    color: white;
+}
+
+.info-container3{
+    height: 300px;
+    width: 800px;
+    margin-top: 100px;
+    background-color: #053363;
+    color: white;
+}
+
+.info-container4{
+    height: 300px;
+    width: 800px;
+    margin-top: 100px;
+    background-color: #053363;
+    color: white;
 }
