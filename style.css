@@ -1,3 +1,5 @@
+@import url('https://fonts.cdnfonts.com/css/instrument-sans');
+
 .hero-image{
     background-image: url(./Images/galle\ crop.jpg);
     background-position: center;
@@ -77,6 +79,7 @@ h2{
     top: 120px;
     left: 750px;
     z-index: 2;
+
 }
 
 .underlay-container{
@@ -106,43 +109,49 @@ h2{
 /* information */
 
 .info-container{
-    height: 300px;
+    height: 400px;
     width: 1200px;
     margin-top: 500px;
     background-color: #053363;
     color: white;
+    line-height: 1.5;
+    font-family: 'Instrument Sans', sans-serif;
 }
 
 .info-container1{
-    height: 300px;
+    height: 400px;
     width: 1200px;
-    margin-top: 100px;
+    margin-top: 20px;
     background-color: #175B91;
     color: white;
+    line-height: 1.5;
 }
 
 .info-container2{
-    height: 300px;
+    height: 400px;
     width: 1200px;
-    margin-top: 100px;
+    margin-top: 20px;
     background-color: #053363;
     color: white;
+    line-height: 1.5;
 }
 
 .info-container3{
-    height: 300px;
+    height: 400px;
     width: 1200px;
-    margin-top: 100px;
+    margin-top: 20px;
     background-color:  #175B91;
     color: white;
+    line-height: 1.5;
 }
 
 .info-container4{
-    height: 300px;
+    height: 400px;
     width: 1200px;
-    margin-top: 100px;
+    margin-top: 20px;
     background-color: #053363;
     color: white;
+    line-height: 1.5;
 }
 
 
@@ -154,10 +163,15 @@ h2{
     background-size: cover;
     background-position: center;
     background-image: url(./Images/1000021992.jpg);
+
     width: 300px;
     height: 300px; 
     margin-top: 500px;
     margin-left: 300px;
+
+    border-style: solid;
+    border-width: 10px;
+    border-color: #40B0BF;
 }
 
 .image-container5{
@@ -165,10 +179,15 @@ h2{
     background-size: cover;
     background-position: center;
     background-image: url(./Images/1000021998.jpg);
+
     width: 300px;
     height: 300px;
     margin-top: 100px;
     margin-left: 300px;
+
+    border-style: solid;
+    border-width: 10px;
+    border-color: #40B0BF;
 }
 
 .image-container6{
@@ -180,6 +199,10 @@ h2{
     height: 300px;
     margin-top: 100px;
     margin-left: 300px;
+    
+    border-style: solid;
+    border-width: 10px;
+    border-color: #40B0BF;
 }
 
 .image-container7{
@@ -191,6 +214,10 @@ h2{
     height: 300px;
     margin-top: 100px;
     margin-left: 300px;
+
+    border-style: solid;
+    border-width: 10px;
+    border-color: #40B0BF;
 }
 
 .image-container8{
@@ -202,4 +229,8 @@ h2{
     height: 300px;
     margin-top: 100px;
     margin-left: 300px;
+
+    border-style: solid;
+    border-width: 10px;
+    border-color: #40B0BF;
 }
