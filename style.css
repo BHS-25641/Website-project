@@ -79,6 +79,7 @@ h2{
     border-style: solid;
     border-width: 50px;
     border-color: #FCB735;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.45);
 
 }
 
@@ -113,7 +114,7 @@ h6{
 .info-container1{
     height: 400px;
     width: 1200px;
-    margin-top: 20px;
+    margin-top: 25px;
     margin-left: 50px;
 
     background-color: #175B91;
@@ -123,7 +124,7 @@ h6{
 .info-container2{
     height: 400px;
     width: 1200px;
-    margin-top: 20px;
+    margin-top: 25px;
     margin-left: 50px;
 
     background-color: #053363;
@@ -133,7 +134,7 @@ h6{
 .info-container3{
     height: 400px;
     width: 1200px;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-left: 50px;
 
     background-color:  #175B91;
@@ -143,7 +144,7 @@ h6{
 .info-container4{
     height: 400px;
     width: 1200px;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-left: 50px;
 
     background-color: #053363;
@@ -153,13 +154,15 @@ h6{
 /* css for the text in all 5 info containers */
 h3{
     font-size: 35px;
-    margin-left: 50px;
+    margin-left: 40px;
 }
 
 p{
-    font-family: 'Bodoni Moda', serif;
     font-size: 30px;
-    margin-left: 50px;
+    margin-left: 40px;
+    margin-right: 70px;
+    line-height: 1.5;
+
 }
 
 /* images for the top 5 */
