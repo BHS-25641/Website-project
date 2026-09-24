@@ -31,20 +31,19 @@ h2{
     border-radius: 50%;
     height: 200px;
     width: 200px;
-    background-image: url(./Images/51898.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     display: inline-block; 
     margin-left: 550px;
     margin-top: 50px;
+    border-style: none;
 }
 
 .image-container2{
     border-radius: 50%;
     height: 200px;
     width: 200px;
-    background-image: url(./Images/51899.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -52,19 +51,20 @@ h2{
     margin-left: 100px;
     margin-right: 100px;
     margin-top: 90px;
+    border-style: none;
 }
 
 .image-container3{
     border-radius: 50%;
     height: 200px;
     width: 200px;
-    background-image: url(./Images/51900.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     display: inline-block;
     margin-right: 150px;
-    margin-top: 50px; 
+    margin-top: 50px;
+    border-style: none; 
 }
 
 /* personal review container and text */
@@ -102,54 +102,23 @@ h6{
 /* information */
 
 .info-container{
-    height: 400px;
-    width: 1200px;
     margin-top: 100px;
+}
+
+div{
+    height: 400px;
+    width: 1200px;
+    margin-top: 25px;
     margin-left: 50px;
 
     background-color: #053363;
     color: white;
 }
 
-.info-container1{
-    height: 400px;
-    width: 1200px;
-    margin-top: 25px;
-    margin-left: 50px;
-
+.info-container-lightblue{
     background-color: #175B91;
-    color: white;
 }
 
-.info-container2{
-    height: 400px;
-    width: 1200px;
-    margin-top: 25px;
-    margin-left: 50px;
-
-    background-color: #053363;
-    color: white;
-}
-
-.info-container3{
-    height: 400px;
-    width: 1200px;
-    margin-top: 30px;
-    margin-left: 50px;
-
-    background-color:  #175B91;
-    color: white;
-}
-
-.info-container4{
-    height: 400px;
-    width: 1200px;
-    margin-top: 30px;
-    margin-left: 50px;
-
-    background-color: #053363;
-    color: white;
-}
 
 /* css for the text in all 5 info containers */
 h3{
@@ -169,63 +138,21 @@ p{
 
 /* images for the top 5 */
 
+
 .image-container4{
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-image: url(./Images/1000021992.jpg);
-
-    width: 420px;
-    height: 380px; 
     margin-top: 100px;
-    margin-left: 40px;
-
-    border-style: solid;
-    border-width: 20px;
-    border-color: #40B0BF;
 }
 
-.image-container5{
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-image: url(./Images/1000021998.jpg);
-
-    width: 420px;
-    height: 380px;
-    margin-top: 30px;
-    margin-left: 40px;
-
-    border-style: solid;
-    border-width: 20px;
-    border-color: #40B0BF;
-}
-
-.image-container6{
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-image: url(./Images/1000005850.jpg);
-
-    width: 420px;
-    height: 380px;
-    margin-top: 30px;
-    margin-left: 40px;
+img{
+   object-fit: cover;
+   position: relative;
+   display: block;
+   
     
-    border-style: solid;
-    border-width: 20px;
-    border-color: #40B0BF;
-}
 
-.image-container7{
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-image: url(./Images/1000021995.jpg);
-
-    width: 420px;
-    height: 380px;
-    margin-top: 30px;
+    width:420px;
+    height:360px;
+    margin-top: 25px;
     margin-left: 40px;
 
     border-style: solid;
@@ -233,20 +160,7 @@ p{
     border-color: #40B0BF;
 }
 
-.image-container8{
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-image: url(./Images/1000005686.jpg);
-
-    width: 420px;
-    height: 380px;
-    margin-top: 30px;
-    margin-left: 40px;
 
 
-    border-style: solid;
-    border-width: 20px;
-    border-color: #40B0BF;
-}
+
 
